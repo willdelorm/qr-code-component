@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 /* Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --color-slate-900: hsl(218, 44%, 22%);
   --color-slate-500: hsl(216, 15%, 48%);
@@ -35,10 +40,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-p {
-  margin: 0;
 }
 
 /* Card Styling */
